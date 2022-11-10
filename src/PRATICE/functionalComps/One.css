@@ -1,0 +1,32 @@
+.nav-container{
+    background-color: rgb(141, 200, 251);
+    height: auto;
+    width: auto;
+    display: flex;
+    gap: 65rem;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction:row ;
+    gap: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.head{
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    justify-content: center;   
+
+}
+.position{
+    position: relative;
+    top:31px;
+    left:150px;  
+}

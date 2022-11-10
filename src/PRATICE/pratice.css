@@ -1,0 +1,10 @@
+.main-container{
+    padding: 20px;
+    width:auto;
+    margin: 200px 500px;
+    max-width: 500px;
+    background-color: brown;
+}
+.bt{
+    border-radius: 1ch;
+}
