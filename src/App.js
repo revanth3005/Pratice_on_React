@@ -3,6 +3,11 @@
 // import { Route, Routes } from "react-router-dom";
 // import DataDisplay from "./Dynamic-Routing/DataDisplay";
 
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
+import Address from './wallet_Address/Address';
+
 // import DataTables from "./DataTables/DataTables";
 
 // import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,31 +20,7 @@ export default function App() {
         <div className="row">
           <div className="col-md-12">
 
-            <nav aria-label="Large page navigation">
-              <ul class="pagination pagination-lg">
-                <li class="page-item disabled">
-                  <span class="page-link">Previous</span>
-                </li>
-                <li class="page-item active" aria-current="page">
-                  <a class="page-link" href="#">
-                    1
-                  </a>
-                </li>
-                <li class="page-item">
-                  <span class="page-link">2</span>
-                </li>
-                <li class="page-item">
-                  <a class="page-link" href="#">
-                    3
-                  </a>
-                </li>
-                <li class="page-item">
-                  <a class="page-link" href="#">
-                    Next
-                  </a>
-                </li>
-              </ul>
-            </nav>
+           <Address/>
             
           </div>
         </div>
